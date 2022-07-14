@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodeWars
+namespace Multiply
 {
     class Program
     {
