@@ -1,12 +1,15 @@
-﻿using System;
-
-namespace Multiply
+﻿namespace Multiply
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var multiply = Multiply(1,2);
+        }
+
+        public static int Multiply(int a, int b)
+        {
+            return a * b;
         }
     }
 }
