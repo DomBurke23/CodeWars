@@ -7,9 +7,6 @@
             var multiply = Multiply(1,2);
         }
 
-        public static int Multiply(int a, int b)
-        {
-            return a * b;
-        }
+        public static int Multiply(int a, int b) => a * b;
     }
 }
