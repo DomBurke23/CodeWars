@@ -1,6 +1,6 @@
 ﻿namespace DigitalRoot
 {
-    class Program
+    public class DigitalRootProgram
     {
         static void Main(string[] args)
         {

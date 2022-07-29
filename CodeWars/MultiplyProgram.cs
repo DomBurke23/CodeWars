@@ -1,6 +1,6 @@
 ﻿namespace Multiply
 {
-    class Program
+    public class MultiplyProgram
     {
         static void Main(string[] args)
         {
