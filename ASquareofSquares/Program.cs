@@ -1,6 +1,8 @@
-﻿namespace ASquareofSquares
+﻿using Xunit;
+
+namespace ASquareofSquares
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -13,11 +15,23 @@
             var attempt26 = Square(25);
         }
 
-        // TODO: Given an integral number, determine if it's a square number. 
-        public static bool Square(int numberToCheck)
+        public static bool Square(int numberToCheck) => Math.Sqrt(numberToCheck) % 1 == 0;
+
+    }
+
+    public class XunitTests
+    {
+        [Theory]
+        [InlineData(-1, false)]
+        [InlineData(0, true)]
+        [InlineData(3, false)]
+        [InlineData(4, true)]
+        [InlineData(25, true)]
+        [InlineData(26, false)]
+        public static void Tests(int numberToCheck, bool expectedResult)
         {
-            var temp = Math.Sqrt(numberToCheck);
-            return temp % 1 == 0;
+            var actualResult = Program.Square(numberToCheck);
+            Assert.Equal(expectedResult, actualResult);
         }
     }
 }
