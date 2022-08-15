@@ -1,4 +1,6 @@
-﻿namespace CreatePhoneNumber
+﻿using System.Text.RegularExpressions;
+
+namespace CreatePhoneNumber
 {
     public class CreatePhoneNumberProgram
     {
@@ -8,9 +10,8 @@
 
         public static string CreatePhoneNumber(int[] numbers)
         {
-            return $"({numbers[0]}{numbers[1]}{numbers[2]}) " +
-                $"{numbers[3]}{numbers[4]}{numbers[5]}-" +
-                $"{numbers[6]}{numbers[7]}{numbers[8]}{numbers[9]}";
+            var format = "(000) 000-0000";
+            return long.Parse(string.Concat(numbers)).ToString(format);
         }
     }
 }
