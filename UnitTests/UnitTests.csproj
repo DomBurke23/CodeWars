@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ASquareofSquares\ASquareofSquares.csproj" />
     <ProjectReference Include="..\CodeWars\Multiply.csproj" />
+    <ProjectReference Include="..\CreatePhoneNumber\CreatePhoneNumber.csproj" />
     <ProjectReference Include="..\DigitalRoot\DigitalRoot.csproj" />
     <ProjectReference Include="..\ReverseWords\ReverseWords.csproj" />
   </ItemGroup>
