@@ -4,13 +4,8 @@
     {
         static void Main(string[] args)
         {
-            string stringToReverse = "Reverse Words!";
-            var reverseWord = ReverseWords(stringToReverse);
         }
 
-        public static string ReverseWords(string stringToReverse)
-        {
-            return "";
-        }
+        public static string ReverseWords(string stringToReverse) => string.Join(" ", stringToReverse.Split(' ').Select(x=> new string(x.Reverse().ToArray())));
     }
 }
