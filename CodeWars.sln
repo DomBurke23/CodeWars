@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASquareofSquares", "ASquare
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{7F897AC9-C282-4013-A174-456DDEA88158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{7B8D6ECD-CFA7-49C6-85A4-2775EE62F0EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{7B8D6ECD-CFA7-49C6-85A4-2775EE62F0EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatePhoneNumber", "CreatePhoneNumber\CreatePhoneNumber.csproj", "{8C0D11FA-D592-4863-B18F-B30DBF8BAEF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatePhoneNumber", "CreatePhoneNumber\CreatePhoneNumber.csproj", "{8C0D11FA-D592-4863-B18F-B30DBF8BAEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopSize", "LoopSize\LoopSize.csproj", "{F9B1D81F-8718-4355-AF35-097CE3DF53BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{8C0D11FA-D592-4863-B18F-B30DBF8BAEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C0D11FA-D592-4863-B18F-B30DBF8BAEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C0D11FA-D592-4863-B18F-B30DBF8BAEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B1D81F-8718-4355-AF35-097CE3DF53BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B1D81F-8718-4355-AF35-097CE3DF53BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B1D81F-8718-4355-AF35-097CE3DF53BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B1D81F-8718-4355-AF35-097CE3DF53BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
