@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ArrayDiff\ArrayDiff.csproj" />
     <ProjectReference Include="..\ASquareofSquares\ASquareofSquares.csproj" />
     <ProjectReference Include="..\CodeWars\Multiply.csproj" />
     <ProjectReference Include="..\CreatePhoneNumber\CreatePhoneNumber.csproj" />

@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatePhoneNumber", "Create
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopSize", "LoopSize\LoopSize.csproj", "{F9B1D81F-8718-4355-AF35-097CE3DF53BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TitleCase", "TitleCase\TitleCase.csproj", "{61DE001E-F5E3-4A23-A5DD-5D2466FFC9C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TitleCase", "TitleCase\TitleCase.csproj", "{61DE001E-F5E3-4A23-A5DD-5D2466FFC9C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDiff", "ArrayDiff\ArrayDiff.csproj", "{F671D27D-3037-4CD1-B9FA-813A61C24DAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{61DE001E-F5E3-4A23-A5DD-5D2466FFC9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61DE001E-F5E3-4A23-A5DD-5D2466FFC9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61DE001E-F5E3-4A23-A5DD-5D2466FFC9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F671D27D-3037-4CD1-B9FA-813A61C24DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F671D27D-3037-4CD1-B9FA-813A61C24DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F671D27D-3037-4CD1-B9FA-813A61C24DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F671D27D-3037-4CD1-B9FA-813A61C24DAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
