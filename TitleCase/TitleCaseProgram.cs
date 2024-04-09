@@ -14,7 +14,7 @@ public class TitleCaseProgram
             .TextInfo;
 
         title = title.ToLower();
-        if (minorWords == null) minorWords = "";
+        minorWords ??= "";
         minorWords = minorWords.ToLower();
         var titleList = title.Split(' ');
         var minorWordList = minorWords.Split(' ');

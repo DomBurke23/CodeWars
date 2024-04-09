@@ -1,5 +1,4 @@
 ﻿using DontRelyOnLuck;
-using System;
 using Xunit;
 
 namespace UnitTests
