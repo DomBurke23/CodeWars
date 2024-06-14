@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DontRelyOnLuck", "DontRelyO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalsTriangle", "PascalsTriangle\PascalsTriangle.csproj", "{BAC8FDB2-6E01-44AA-8330-1740909E9796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidPhoneNumber", "ValidPhoneNumber\ValidPhoneNumber.csproj", "{92DD8EBD-5DA3-4FFB-8FAC-5C7E2E3B3F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidPhoneNumber", "ValidPhoneNumber\ValidPhoneNumber.csproj", "{92DD8EBD-5DA3-4FFB-8FAC-5C7E2E3B3F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "RomanNumerals\RomanNumerals.csproj", "{1EFD039F-DFE6-48E0-B398-640DB1D69FD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{92DD8EBD-5DA3-4FFB-8FAC-5C7E2E3B3F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92DD8EBD-5DA3-4FFB-8FAC-5C7E2E3B3F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92DD8EBD-5DA3-4FFB-8FAC-5C7E2E3B3F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFD039F-DFE6-48E0-B398-640DB1D69FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFD039F-DFE6-48E0-B398-640DB1D69FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFD039F-DFE6-48E0-B398-640DB1D69FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFD039F-DFE6-48E0-B398-640DB1D69FD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

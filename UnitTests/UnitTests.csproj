@@ -26,6 +26,7 @@
     <ProjectReference Include="..\LoopSize\LoopSize.csproj" />
     <ProjectReference Include="..\PascalsTriangle\PascalsTriangle.csproj" />
     <ProjectReference Include="..\ReverseWords\ReverseWords.csproj" />
+    <ProjectReference Include="..\RomanNumerals\RomanNumerals.csproj" />
     <ProjectReference Include="..\TitleCase\TitleCase.csproj" />
     <ProjectReference Include="..\ValidPhoneNumber\ValidPhoneNumber.csproj" />
   </ItemGroup>
