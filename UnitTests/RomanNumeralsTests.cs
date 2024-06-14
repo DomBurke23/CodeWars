@@ -28,5 +28,20 @@ namespace UnitTests
             var response = Assert.Throws<ArgumentOutOfRangeException>(() => (RomanNumeralsProgram.ConvertToRomanNumerals(input)));
             Assert.True(response.Message == expectedOutput, $"Response returned {response.Message}");
         }
+
+        [Theory]
+        [InlineData("I", 1)]
+        [InlineData("M", 1000)]
+        [InlineData("MDCLXVI", 1666)]
+        [InlineData("MMXXII", 2022)]
+        [InlineData("MCMXC", 1990)]
+        [InlineData("MMVIII", 2008)]
+        [InlineData("MMMCMXCIX", 3999)]
+        public static void ConvertFromRomanNumeralsTest(string input, int expectedOutput)
+        {
+            var response = RomanNumeralsProgram.ConvertFromRomanNumerals(input);
+            Assert.True(response == expectedOutput, $"Response returned - {response}");
+        }
+
     }
 }

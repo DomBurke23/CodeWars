@@ -42,9 +42,23 @@
             return result;
         }
 
-        public static string ConvertFromRomanNumerals(string input)
+        public static int ConvertFromRomanNumerals(string input)
         {
-            return "true";
+            int result = 0;
+            for (int i = 0; i < input.Length; i++)
+            {
+                string romanChar = input[i].ToString();
+                string romanChars = "" ;
+                if (i + 1 < input.Length) { romanChars = romanChar + input[i + 1].ToString(); }
+
+                if (romanDict.ContainsValue(romanChar) || romanDict.ContainsValue(romanChars))
+                {
+                    var key = romanDict.Where(x => x.Value == romanChars || x.Value == romanChar).Select(x => x.Key).FirstOrDefault();
+                    result = result + key;
+                }
+                if (romanDict.ContainsValue(romanChars)) i++;
+            }
+            return result;
         }
     }
 }
