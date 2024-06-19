@@ -21,6 +21,24 @@
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Would you like to Convert To Roman Numeral (1), or Convert From Roman Numerals (2).");
+            var choice = Console.ReadLine();
+            // TODO add validation for the input 
+            switch (choice)
+            {
+                case "1":
+                    Console.WriteLine("Please Enter an integer");
+                    var integerConversion = ConvertToRomanNumerals(Convert.ToInt32(Console.ReadLine()));
+                    Console.WriteLine(integerConversion);
+                    break;
+                case "2":
+                    Console.WriteLine("Please Enter a Roman Numeral.");
+                    var romanNumeral = ConvertFromRomanNumerals(Console.ReadLine().ToUpper());
+                    Console.WriteLine(romanNumeral);
+                    break;
+                default:
+                    break;
+            }
         }
 
         public static string ConvertToRomanNumerals(int input)
