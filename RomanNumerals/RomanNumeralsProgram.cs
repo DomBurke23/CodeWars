@@ -1,4 +1,6 @@
-﻿namespace RomanNumerals
+﻿using System.Text;
+
+namespace RomanNumerals
 {
     public class RomanNumeralsProgram
     {
@@ -47,17 +49,20 @@
 
             // The dictionary must be in descending order to work, if we put { 1, "I" } first then all tests fail 
             string result = "";
+            var stringBuilder = new StringBuilder();
             foreach (var pair in romanDict)
             {
                 while (input >= pair.Key)
                 {
                     // add the value from dictionary to create the converted value 
                     result += pair.Value;
+                    stringBuilder.Append(pair.Value); // replace result with stringBuilder 
                     // take off the key value from the input value 
                     input -= pair.Key;
                 }
             }
-            return result;
+            //return result;
+            return stringBuilder.ToString();
         }
 
         public static int ConvertFromRomanNumerals(string input)
