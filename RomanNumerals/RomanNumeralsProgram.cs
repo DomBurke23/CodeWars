@@ -56,13 +56,13 @@ namespace RomanNumerals
                 {
                     // add the value from dictionary to create the converted value 
                     result += pair.Value;
-                    stringBuilder.Append(pair.Value); // replace result with stringBuilder 
+                    //stringBuilder.Append(pair.Value); // replace result with stringBuilder instead of using concatenation 
                     // take off the key value from the input value 
                     input -= pair.Key;
                 }
             }
-            //return result;
-            return stringBuilder.ToString();
+            return result;
+            //return stringBuilder.ToString();
         }
 
         public static int ConvertFromRomanNumerals(string input)

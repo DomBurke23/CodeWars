@@ -22,6 +22,7 @@
     <ProjectReference Include="..\Base64Encode\Base64Encode.csproj" />
     <ProjectReference Include="..\CodeWars\Multiply.csproj" />
     <ProjectReference Include="..\CreatePhoneNumber\CreatePhoneNumber.csproj" />
+    <ProjectReference Include="..\DidYouMean\DidYouMean.csproj" />
     <ProjectReference Include="..\DigitalRoot\DigitalRoot.csproj" />
     <ProjectReference Include="..\DontRelyOnLuck\DontRelyOnLuck.csproj" />
     <ProjectReference Include="..\LoopSize\LoopSize.csproj" />
