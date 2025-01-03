@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base64Encode", "Base64Encod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DidYouMean", "DidYouMean\DidYouMean.csproj", "{DFED1397-A047-4E06-BB07-73D5DB7C8781}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenPinBowling", "TenPinBowling\TenPinBowling.csproj", "{298D382A-95A8-4D18-8375-28CEDDB3D3E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{DFED1397-A047-4E06-BB07-73D5DB7C8781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFED1397-A047-4E06-BB07-73D5DB7C8781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFED1397-A047-4E06-BB07-73D5DB7C8781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298D382A-95A8-4D18-8375-28CEDDB3D3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298D382A-95A8-4D18-8375-28CEDDB3D3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298D382A-95A8-4D18-8375-28CEDDB3D3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298D382A-95A8-4D18-8375-28CEDDB3D3E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
